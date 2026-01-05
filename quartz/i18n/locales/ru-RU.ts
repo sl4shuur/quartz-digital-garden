@@ -29,6 +29,13 @@ export default {
       lightMode: "Светлый режим",
       darkMode: "Тёмный режим",
     },
+    themeSwitcher: {
+      title: "Цветовая схема",
+      default: "По умолчанию",
+      tokyoNight: "Tokyo Night",
+      dracula: "Dracula",
+      nord: "Nord",
+    },
     readerMode: {
       title: "Режим чтения",
     },

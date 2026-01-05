@@ -29,6 +29,13 @@ export default {
       lightMode: "Light mode",
       darkMode: "Dark mode",
     },
+    themeSwitcher: {
+      title: "Color scheme",
+      default: "Default",
+      tokyoNight: "Tokyo Night",
+      dracula: "Dracula",
+      nord: "Nord",
+    },
     readerMode: {
       title: "Reader mode",
     },

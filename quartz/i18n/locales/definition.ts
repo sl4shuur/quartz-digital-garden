@@ -32,6 +32,13 @@ export interface Translation {
       lightMode: string
       darkMode: string
     }
+    themeSwitcher: {
+      title: string
+      default: string
+      tokyoNight: string
+      dracula: string
+      nord: string
+    }
     readerMode: {
       title: string
     }
