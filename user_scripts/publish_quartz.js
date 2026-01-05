@@ -177,14 +177,14 @@ module.exports = async () => {
   const hasContentChanges = !contentDiff.success;
   
   if (hasContentChanges) {
-    const contentMsg = `📝 Update notes: ${copied} files, ${mediaCopied} media (${dateStr})`;
+    const contentMsg = `Update notes: ${copied} files, ${mediaCopied} media (${dateStr})`;
     await runGit(`git commit -m "${contentMsg}"`);
   }
   
   // Commit script changes separately
   if (scriptChanged) {
     await runGit("git add user_scripts");
-    const scriptMsg = `🔧 Update publish script (${dateStr})`;
+    const scriptMsg = `Update publish script (${dateStr})`;
     await runGit(`git commit -m "${scriptMsg}"`);
   }
   
