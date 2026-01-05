@@ -172,5 +172,41 @@ ${stylesheet.join("\n\n")}
   --highlight: ${theme.colors.darkMode.highlight};
   --textHighlight: ${theme.colors.darkMode.textHighlight};
 }
+
+:root[saved-theme="dark"][color-scheme="tokyo-night"] {
+  --light: #1a1b26;
+  --lightgray: #24283b;
+  --gray: #414868;
+  --darkgray: #c0caf5;
+  --dark: #a9b1d6;
+  --secondary: #7aa2f7;
+  --tertiary: #bb9af7;
+  --highlight: rgba(122, 162, 247, 0.15);
+  --textHighlight: rgba(187, 154, 247, 0.15);
+}
+
+:root[saved-theme="dark"][color-scheme="dracula"] {
+  --light: #282a36;
+  --lightgray: #44475a;
+  --gray: #6272a4;
+  --darkgray: #f8f8f2;
+  --dark: #e6e6e6;
+  --secondary: #8be9fd;
+  --tertiary: #ff79c6;
+  --highlight: rgba(139, 233, 253, 0.15);
+  --textHighlight: rgba(255, 121, 198, 0.15);
+}
+
+:root[saved-theme="dark"][color-scheme="nord"] {
+  --light: #2e3440;
+  --lightgray: #3b4252;
+  --gray: #4c566a;
+  --darkgray: #d8dee9;
+  --dark: #eceff4;
+  --secondary: #88c0d0;
+  --tertiary: #b48ead;
+  --highlight: rgba(136, 192, 208, 0.15);
+  --textHighlight: rgba(180, 142, 173, 0.15);
+}
 `
 }
