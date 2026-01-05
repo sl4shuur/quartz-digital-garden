@@ -12,6 +12,8 @@
 
 ### Using Docker
 
+Just use the command from documentation `docker run --rm -itp 8080:8080 -p 3001:3001 -v ./content:/usr/src/app/content $(docker build -q .)` or follow the steps below:
+
 1. Build the Docker image:
 
    ```bash
@@ -25,6 +27,8 @@
    ```
 
 3. Open `http://localhost:8080` in your browser to view the site
+
+4. To stop the container, use `docker ps` to find the container ID and then run `docker stop <container_id>`.
 
 ## Updating from the original repository
 
