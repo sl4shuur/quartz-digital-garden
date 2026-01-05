@@ -15,4 +15,4 @@ The `publish_quartz.js` script solves this problem by:
 1. Copying all markdown files from your Obsidian vault (hardcoded path in config) to the Quartz `content` folder.
 2. Pushing the changes to your Quartz GitHub repository.
 
-After the `git push` command, you can set up GitHub Actions in your Quartz repository to automatically build and deploy your site whenever changes are pushed. Sounds good, but you still need to trigger the script manually. But I am satisfied with this level of automation for now.
+After the `git push` command, you can set up GitHub Actions in your Quartz repository to automatically build and deploy your site whenever changes are pushed. Sounds good, but you still need to trigger the script manually (I do it via `Templater` plugin). But I am satisfied with this level of automation for now.
